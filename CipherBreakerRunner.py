@@ -38,7 +38,7 @@ def user_interface_setup():
     baseHeight=int(root.winfo_screenheight()/1.5);
     
     root.resizable(False, False)
-    root.title("INSE6110 - Substitution Cipher Breaker")
+    root.title("Substitution Cipher Breaker")
     root.geometry(str(baseWidth)+"x"+str(baseHeight))
     
     CipherTextLabel.config(text="Cipher Text: ")

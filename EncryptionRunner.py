@@ -81,7 +81,7 @@ baseWidth=int(root.winfo_screenwidth()/2);
 baseHeight=int(root.winfo_screenheight()/1.5);
 
 root.resizable(False, False)
-root.title("INSE6110 - Substitution Cipher")
+root.title("Substitution Cipher")
 root.geometry(str(baseWidth)+"x"+str(baseHeight))
 
 Label(root, text="Plain Text: ").grid(row=0,sticky=NW,pady=(5,5))
